@@ -1,4 +1,4 @@
-package com.easemob.mybatis.model;
+package com.easemob.jdbc.model;
 
 public class User {
 	

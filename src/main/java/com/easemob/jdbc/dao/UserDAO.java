@@ -1,8 +1,8 @@
-package com.easemob.mybatis.dao;
+package com.easemob.jdbc.dao;
 
 import java.util.List;
 
-import com.easemob.mybatis.model.User;
+import com.easemob.jdbc.model.User;
 
 public interface UserDAO {
 

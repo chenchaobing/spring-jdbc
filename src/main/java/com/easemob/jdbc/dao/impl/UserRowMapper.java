@@ -1,11 +1,11 @@
-package com.easemob.mybatis.dao.impl;
+package com.easemob.jdbc.dao.impl;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import org.springframework.jdbc.core.RowMapper;
 
-import com.easemob.mybatis.model.User;
+import com.easemob.jdbc.model.User;
 
 public class UserRowMapper implements RowMapper<Object> {
  
