@@ -12,7 +12,7 @@ public class SpringJdbcTest {
 	
 	private static ApplicationContext ctx;
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
 		UserDAO userDao = (UserDAO) ctx.getBean(UserDAOImpl.class);
 		for(int i = 0 ; i < 10 ; i ++){
@@ -21,6 +21,7 @@ public class SpringJdbcTest {
 			long end = System.currentTimeMillis();
 			System.out.println(userList);
 			System.out.println("cost time : " + (end - start));
+			Thread.sleep(1000);
 		}
 		
 		System.out.println();

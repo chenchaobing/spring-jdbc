@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.easemob</groupId>
-  <artifactId>mybatis-test</artifactId>
+  <artifactId>spring-jdbc-test</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
